@@ -1,0 +1,75 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* Layout */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(dark-hexagonal-background-with-gradient-color_79603-1409.jpg) center/cover no-repeat;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency */
+    color: #fff;
+}
+
+.main-box {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(76, 81, 100, 0.7); /* Adjust transparency */
+    padding: 20px;
+    margin: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+#user_input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust transparency */
+    color: #fff;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgba(76, 81, 100, 0.7); /* Adjust transparency */
+    color: #fff;
+    cursor: pointer;
+}
+
+h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
